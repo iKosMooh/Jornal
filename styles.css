@@ -289,6 +289,8 @@ a :visited{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border: solid 0.01px rgb(194, 194, 194);
+    min-height: 400px;
+    min-width: 400px;
 }
 
 .sidebar a {
