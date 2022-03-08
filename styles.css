@@ -222,6 +222,7 @@ a :visited{
     margin-left: auto;
     background-color: whitesmoke;
     border-radius: 20px;
+    padding: 20px;
 }
 
 @media (max-width: 700px) {
@@ -291,6 +292,7 @@ a :visited{
     border: solid 0.01px rgb(194, 194, 194);
     min-height: 400px;
     min-width: 400px;
+    box-sizing: border-box;
 }
 
 .sidebar a {
