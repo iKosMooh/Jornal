@@ -165,12 +165,13 @@ body, ul, li, p{
 .grid1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 800px;
+    max-width: 900px;
     padding: 20px;
     margin: auto;
-    grid-gap: 20px;
+    grid-gap: 50px;
     margin: center;
     padding-right: 2%;
+    
 }
 
 .grid1 > div:nth-child(n + 0):hover{
@@ -192,9 +193,15 @@ body, ul, li, p{
 .quadro{
     background-color: whitesmoke;
     width: 100%;
-    padding: 5px;
-    margin: 5px;
-}   
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.quadro .img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: solid 0.01px rgb(194, 194, 194);
+}
 
 .grid1 > div:nth-child(n + 4){
     grid-template-columns: 1fr 1fr;
@@ -210,6 +217,7 @@ body, ul, li, p{
     margin-top: 0;
     margin-left: auto;
     background-color: whitesmoke;
+    border-radius: 20px;
 }
 
 @media (max-width: 700px) {
