@@ -146,7 +146,12 @@ a :visited{
     color: whitesmoke
 }
 
-@media (max-width: 700px) {
+.rodape p{
+    font-size: 8px;
+    color: whitesmoke
+  }
+  
+  @media (max-width: 700px) {
     .rodape{
       flex-direction: column;
     }
@@ -155,8 +160,10 @@ a :visited{
         color: whitesmoke;
         padding-top: 5px;
     }
-  }
-  
+    .rodape div{
+      padding-top: 200px;
+    }
+}
 
 /* Pagina principal Notícias */
 
@@ -247,7 +254,7 @@ a :visited{
 
 .grid2 {
     display: grid;
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 350px;
     grid-gap: 50px;
     max-width: 800px;
     padding: 10px;
@@ -261,7 +268,7 @@ a :visited{
 
 .grid2 p{
     text-align:justify;
-    width: 98%;
+    width: 100%;
     padding: 5px;
     background-color: whitesmoke;
     border-radius: 20px;
@@ -279,6 +286,7 @@ a :visited{
 }
 
 .sidebar > div {
+    box-sizing: border-box;
     margin-bottom: 10px;
     background-color: whitesmoke;
     width: 100%;
@@ -290,9 +298,8 @@ a :visited{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border: solid 0.01px rgb(194, 194, 194);
-    min-height: 400px;
-    min-width: 400px;
-    box-sizing: border-box;
+    min-height: 300px;
+    min-width: 300px;
 }
 
 .sidebar a {
