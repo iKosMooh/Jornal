@@ -232,6 +232,12 @@ a :visited{
     padding: 20px;
 }
 
+.grid > div.anuncio .img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
 @media (max-width: 700px) {
     .grid1{
         grid-template-columns: 1fr 1fr;
