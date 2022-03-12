@@ -6,6 +6,16 @@ body, ul, li, p{
     font-size: 20px;
 }
 
+::-webkit-scrollbar{
+        width: 12px;
+        border: 1px solid rgb(200, 200, 200);
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(32, 32, 32);
+    border-radius: 20px;
+}
+
 a :visited{
     color: none;
     text-decoration: none;
