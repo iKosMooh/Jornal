@@ -389,8 +389,13 @@ a :visited{
       overflow: scroll;
     }
     .sidebar > div {
-      flex: 1 0 200px;
-      margin: 0 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        background-color: whitesmoke;
+        max-height: 400px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
     }
   }
   
