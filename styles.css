@@ -138,20 +138,22 @@ a :visited{
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    font-weight: normal;
 }
 
 .logo h2{
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     padding: 0px;
     margin: 0px;
     text-align: center;
+    font-weight: normal;
 }
 
 .nav-list li a{
@@ -234,6 +236,12 @@ a :visited{
     width: 100%;
     padding-right: 10px;
     padding-left: 5px;
+    /* Limite de caracteres */
+    overflow: hidden; /* Removendo barra de rolagem */
+    text-overflow: ellipsis; /* Adicionando "..." ao final */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Quantidade de linhas */
+    -webkit-box-orient: vertical;
 }
 
 .grid1 a{
@@ -295,6 +303,9 @@ a :visited{
         display: block;
         margin-left: auto;
     }
+    .grid1 p {
+        -webkit-line-clamp: 5; /* Quantidade de linhas */
+    }
     .grid1 > div.anuncio{
         grid-column: auto;
         grid-row: auto;
@@ -331,6 +342,12 @@ a :visited{
     width: 100%;
     padding: 5px;
     border-radius: 20px;
+    /* Limite de caracteres */
+    overflow: hidden; /* Removendo barra de rolagem */
+    text-overflow: ellipsis; /* Adicionando "..." ao final */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Quantidade de linhas */
+    -webkit-box-orient: vertical;
 }
 
 .grid2 > div{
@@ -355,6 +372,7 @@ a :visited{
     max-height: 400px;
     width: 100%;
     padding: 10px;
+    margin: 5px;
     border-radius: 20px;
 }
 
@@ -362,8 +380,8 @@ a :visited{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border: solid 0.01px rgb(194, 194, 194);
-    min-height: 300px;
-    min-width: 300px;
+    min-height: 250px;
+    min-width: 250px;
     width: 100%;
     height: 100%;
 }
@@ -383,6 +401,9 @@ a :visited{
       grid-template-columns: 1fr;
       margin-left: 5%;
       margin-right: 5%;
+    }
+    .grid2 p{
+        -webkit-line-clamp: 5; /* Quantidade de linhas */
     }
     .sidebar {
       display: flex;
@@ -501,20 +522,44 @@ a :visited{
     margin-left: 21%;
     border-left: 1px solid rgb(224, 224, 224);
     border-right: 1px solid rgb(224, 224, 224);
-    padding: 1%;
     text-decoration: none;
     color: black;
     padding-bottom: 600px;
 }
 
-.pesquisa li{
-    padding: 20px;
-    box-sizing: border-box;
+.pesquisabox{
     border: 1px solid rgb(224, 224, 224);
-    color: rgb(49, 49, 49);
+    padding: 1%;
+    margin: 15px;
 }
 
-.pesquisa li:hover{
+.pesquisa h1{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(49, 49, 49);
+    margin: 0px;
+    /* Limite de caracteres */
+    overflow: hidden; /* Removendo barra de rolagem */
+    text-overflow: ellipsis; /* Adicionando "..." ao final */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Quantidade de linhas */
+    -webkit-box-orient: vertical;
+}
+
+.pesquisa h2{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: end;
+    color: rgb(49, 49, 49);
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+.pesquisa > div:hover{
     background-color: rgb(185, 185, 185);
 }
 
