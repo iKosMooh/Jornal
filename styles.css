@@ -386,8 +386,8 @@ a :visited{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border: solid 0.01px rgb(194, 194, 194);
-    min-height: 250px;
-    min-width: 250px;
+    min-height: 30px;
+    min-width: 300px;
     width: 100%;
     height: 100%;
 }
