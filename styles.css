@@ -465,6 +465,8 @@ a :visited{
     color: rgb(70, 70, 70);
     font-size: 20px;
     font-weight: normal;
+    text-align: justify;
+    padding: 5px;
     
 }
 
@@ -480,8 +482,8 @@ a :visited{
     font-size: 25px;
     color: rgb(26, 26, 26);
     padding: 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -503,6 +505,12 @@ a :visited{
     padding-right: 20px;
     text-align:justify;
     text-indent: 20px;
+    padding: 20px;
+}
+
+.noticias hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 700px) {
@@ -518,6 +526,12 @@ a :visited{
         color: black;
         padding: 2%;
         padding-bottom: 10%;
+    }
+
+    .noticias .img{
+        box-sizing: border-box;
+        max-width: 360px;
+        margin-bottom: 20px;
     }
     
 }
