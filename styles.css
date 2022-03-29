@@ -522,6 +522,10 @@ a :visited{
     margin-bottom: 30px;
 }
 
+.noticias audio{
+    
+}
+
 @media (max-width: 700px) {
     .noticias{
         box-sizing: normal;
