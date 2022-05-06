@@ -40,8 +40,8 @@ a :visited{
 }
 
 .logo img{
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
 }
   
   nav {
@@ -175,6 +175,40 @@ a :visited{
 
 .titulo{
     text-align: center;
+}
+
+/* Pesquisas logos cabeçalho */
+
+#pesquisa1 img{
+    box-sizing: border-box;
+    padding-left: 30%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    object-position: center;
+}
+
+@media (max-width: 700px) {
+    #pesquisa1 img{
+        box-sizing: border-box;
+        padding: 0px;
+        padding-left: 5%;
+        padding-top: 5%;
+        width: 400px;
+    }
+    .iframe{
+        box-sizing: border-box;
+        width: auto;
+        padding-left: 15%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #pesquisa1 img{
+        box-sizing: border-box;
+        padding: 0px;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
 }
 
 /* Rodapé */
